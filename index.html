@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+           <title>BGR  X79</title> 
+
+          <style>
+            body {
+               background-color:black;
+               color:white;
+              padding: 20px;
+            }
+            
+            h1 {
+              text-align: center;
+              font-size: 40px;
+              color: red;
+              
+            }
+
+            p {
+                text-align: center;
+                font-size: 20px;
+              
+            }
+
+             img {
+                 display: block;
+                 margin: 20px auto;
+                 width: 150px;
+               
+            }
+            
+              button {
+                background-color: red;
+                color:white;
+                font-size: 18px;
+                border-radius: 20px;
+                display: block;
+                margin: auto;
+                padding: 10px 20px;
+                transition: all 0.3s ease;
+                box-shadow: 0 0 10px red;
+                font-weight: bold;
+                border: 2px solid white;
+                text-transform: uppercase;
+                width: 200px;
+                height: 50px;
+                letter-spacing: 2px;
+                font-family: Arial;
+                line-height: 50px;
+                
+            }
+
+            button:hover {
+               background-color: blue;
+              transform: scale(0.95);
+            }
+          </style>
+</head>
+<body>
+
+    <img src="logopn.png" alt="Bgr Logo">
+  
+    <h1>KAISE HO BHAI LOG</h1>
+    <p id="message">KA HAL BA HO MANJIT KE LAIKA</p>
+    <button onclick="showMessage()">CLICK ME</button>
+  <script>
+    function showMessage() {
+
+    document.getElementById("message").innerHTML = "AALU KHAOGE"
+    document.getElementById("message").style.color = "yellow"
+
+    let button = document.querySelector("button");
+
+    button.innerHTML = "BGR ARMY 🔥";
+    button.style.backgroundColor = "blue";
+    button.style.transform = "scale(1.15)";
+    button.style.boxShadow = "0 0 25px blue";
+      
+  }
+  </script>
+      
+    
+</body>
+</html>
